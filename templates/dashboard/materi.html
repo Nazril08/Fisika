@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potensial Listrik - Fisika Dasar 2</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .formula {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            margin: 20px 0;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1.2em;
+            display: inline-block;
+        }
+        .example {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .example h3 {
+            color: #3498db;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #3498db;
+            color: #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        ul li:nth-child(odd) {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Potensial Listrik</h1>
+        <p>Potensial listrik adalah besaran yang mengukur energi potensial listrik per satuan muatan di suatu titik dalam medan listrik. Potensial listrik di suatu titik dalam medan listrik didefinisikan sebagai kerja yang dilakukan untuk memindahkan satuan muatan dari titik referensi (biasanya tak hingga) ke titik tersebut tanpa mempercepat muatan.</p>
+        
+        <h2>Definisi Potensial Listrik</h2>
+        <p>Potensial listrik (<em>V</em>) di suatu titik dalam medan listrik didefinisikan sebagai energi potensial listrik (<em>U</em>) per satuan muatan (<em>q</em>):</p>
+        <div class="formula">
+            V = \frac{U}{q}
+        </div>
+        <p>Dimana:</p>
+        <ul>
+            <li><em>V</em> adalah potensial listrik (Volt, V)</li>
+            <li><em>U</em> adalah energi potensial listrik (Joule, J)</li>
+            <li><em>q</em> adalah muatan listrik (Coulomb, C)</li>
+        </ul>
+        
+        <h2>Potensial Listrik dan Medan Listrik</h2>
+        <p>Potensial listrik berhubungan erat dengan medan listrik. Medan listrik (<em>E</em>) adalah turunan dari potensial listrik terhadap jarak (<em>r</em>):</p>
+        <div class="formula">
+            \vec{E} = - \nabla V
+        </div>
+        <p>Dimana:</p>
+        <ul>
+            <li><em>\vec{E}</em> adalah medan listrik (V/m)</li>
+            <li><em>\nabla V</em> adalah gradien dari potensial listrik</li>
+        </ul>
+        
+        <h2>Potensial Listrik oleh Muatan Titik</h2>
+        <p>Potensial listrik yang disebabkan oleh muatan titik <em>Q</em> pada jarak <em>r</em> dari muatan tersebut diberikan oleh:</p>
+        <div class="formula">
+            V = k_e \frac{Q}{r}
+        </div>
+        <p>Dimana:</p>
+        <ul>
+            <li><em>V</em> adalah potensial listrik (Volt, V)</li>
+            <li><em>Q</em> adalah muatan listrik (Coulomb, C)</li>
+            <li><em>r</em> adalah jarak dari muatan titik (meter, m)</li>
+            <li><em>k_e</em> adalah konstanta Coulomb (8.99 x 10^9 Nm^2/C^2)</li>
+        </ul>
+        
+        <h2>Contoh Perhitungan Potensial Listrik</h2>
+        <div class="example">
+            <h3>Contoh Soal:</h3>
+            <p>Sebuah muatan titik sebesar 2 μC ditempatkan pada suatu titik dalam ruang. Hitunglah potensial listrik pada titik yang berjarak 0.5 meter dari muatan tersebut.</p>
+            <h3>Penyelesaian:</h3>
+            <p>Diketahui:</p>
+            <ul>
+                <li>Q = 2 μC = 2 x 10^-6 C</li>
+                <li>r = 0.5 m</li>
+                <li>k_e = 8.99 x 10^9 Nm^2/C^2</li>
+            </ul>
+            <p>Menggunakan rumus potensial listrik:</p>
+            <div class="formula">
+                V = k_e \frac{Q}{r}
+            </div>
+            <p>V = (8.99 x 10^9) \frac{(2 x 10^-6)}{0.5}</p>
+            <p>V = 35,960 Volt</p>
+            <p>Jadi, potensial listrik pada titik tersebut adalah 35,960 Volt.</p>
+        </div>
+    </div>
+</body>
+</html>

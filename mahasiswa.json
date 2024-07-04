@@ -1,0 +1,53 @@
+[
+    {
+        "type": "header",
+        "version": "5.2.1",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "database_baru"
+    },
+    {
+        "type": "table",
+        "name": "mahasiswa",
+        "database": "database_baru",
+        "data": [
+            {
+                "nama": "ANGGA RIZKI NUGRAHA",
+                "npm": "50423181",
+                "jurushan": "informatika"
+            },
+            {
+                "nama": "AXL REGAN YOHANDE",
+                "npm": "50423237",
+                "jurushan": "informatika"
+            },
+            {
+                "nama": "KEISHA PUTRI PURNAMA",
+                "npm": "50423683",
+                "jurushan": "Informatika"
+            },
+            {
+                "nama": "MOHAMAD KEVIN EMIR ALKHATAMI",
+                "npm": "50423792",
+                "jurushan": "Informatika"
+            },
+            {
+                "nama": "NAZRIL BINTANG PRATAMA",
+                "npm": "51423096",
+                "jurushan": "Informatika"
+            },
+            {
+                "nama": "SALSEPA ZENAS VITO",
+                "npm": "51423355",
+                "jurushan": "Informatika"
+            },
+            {
+                "nama": "Nazril",
+                "npm": "51423096",
+                "jurushan": "TI"
+            }
+        ]
+    }
+]
